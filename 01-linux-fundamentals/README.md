@@ -23,14 +23,12 @@
 Comandos utilizados:
 
 ```bash
-
 cat /etc/os-release
 uname -r
-hostnam
+hostname
 whoami
 id
-
-``
+```
 
 Objetivo: identificar o sistema operacional, o kernel, o nome da máquina e o usuário atual.
 
