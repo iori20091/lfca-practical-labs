@@ -23,33 +23,12 @@
 Comandos utilizados:
 
 ```bash
+
 cat /etc/os-release
-
-PRETTY_NAME="Debian GNU/Linux 10 (buster)"
-NAME="Debian GNU/Linux"
-VERSION="10 (buster)"
-VERSION_CODENAME=buster
-HOME_URL="https://www.debian.org/"
-SUPPORT_URL="https://www.debian.org/support"
-BUG_REPORT_URL="https://bugs.debian.org/"
-
-
 uname -r
-
-5.20.0-27-amd64
-
-hostname
-
-Luan1337
-
+hostnam
 whoami
-
-Luan1337
-
 id
-
-uid=0(root) gid=0(root) grupos=0(root)
-
 
 ``
 

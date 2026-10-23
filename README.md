@@ -1,50 +1,72 @@
-# LFCA Practical Labs
+# Laboratórios Práticos — Certificação LFCA
 
-Hands-on labs and study notes aligned with the
-Linux Foundation Certified IT Associate (LFCA) domains.
+Projeto de estudos práticos para preparação para a certificação Linux Foundation Certified IT Associate (LFCA).
 
-## Objectives
+O objetivo é desenvolver conhecimentos em Linux, administração de sistemas, redes, segurança, computação em nuvem, DevOps e gerenciamento de projetos de TI, por meio de laboratórios documentados e exercícios práticos.
 
-- Practice Linux command-line fundamentals.
-- Learn system administration and troubleshooting.
-- Study cloud computing and security fundamentals.
-- Practice Git, DevOps and container concepts.
-- Document IT project management fundamentals.
+## Objetivos
 
-## Lab Structure
+- Praticar comandos Linux e administração pela linha de comando.
+- Desenvolver habilidades de diagnóstico e resolução de problemas.
+- Aprender conceitos fundamentais de redes e segurança.
+- Compreender os principais modelos e conceitos de computação em nuvem.
+- Praticar Git, DevOps e gerenciamento de containers.
+- Estudar arquitetura de aplicações e gerenciamento de projetos de TI.
+- Documentar os resultados e versionar o progresso com Git e GitHub.
 
-| Directory | Focus |
+## Estrutura do projeto
+
+| Diretório | Conteúdo |
 |---|---|
-| 01-linux-fundamentals | Shell, files, processes and commands |
-| 02-system-administration | Users, permissions, packages and services |
-| 03-networking-troubleshooting | Networking, DNS and diagnostics |
-| 04-security | Access control, SSH, firewall and auditing |
-| 05-cloud | Cloud models, availability and cost |
-| 06-devops-containers | Git, containers and workflows |
-| 07-it-project-management | Requirements, risks and licensing |
-| 08-mock-exam | Revision and practical assessments |
-| reports | Lab results and technical reports |
-| scripts | Reusable practice scripts |
-| screenshots | Selected evidence from lab exercises |
+| `01-fundamentos-linux/` | Terminal, arquivos, processos e comandos |
+| `02-administracao-sistemas/` | Usuários, permissões, pacotes e serviços |
+| `03-redes-e-diagnostico/` | Redes, DNS, conectividade e diagnóstico |
+| `04-fundamentos-seguranca/` | Controle de acesso, SSH, firewall e auditoria |
+| `05-fundamentos-nuvem/` | Modelos de nuvem, disponibilidade e custos |
+| `06-devops-git-containers/` | Git, containers e fluxos de trabalho |
+| `07-gerenciamento-projetos-ti/` | Requisitos, riscos e licenciamento |
+| `08-simulado-final/` | Revisões e exercícios integrados |
+| `relatorios/` | Relatórios técnicos e resultados |
+| `scripts/` | Scripts reutilizáveis dos laboratórios |
+| `capturas-tela/` | Evidências visuais selecionadas |
 
-## Methodology
+## Metodologia
 
-Each lab includes objectives, prerequisites, commands,
-expected results, validation steps and lessons learned.
+Cada laboratório deverá apresentar:
 
-## Disclaimer
+1. Objetivos de aprendizagem.
+2. Pré-requisitos.
+3. Procedimentos e comandos utilizados.
+4. Resultados observados.
+5. Validação dos resultados.
+6. Problemas encontrados e respectivas soluções.
+7. Conclusão e aprendizados.
 
-This is an independent educational project. It is not
-affiliated with or endorsed by the Linux Foundation.
-Completion of these labs does not guarantee certification.
+## Progresso dos estudos
 
-## Progress
+- [ ] Fundamentos Linux
+- [ ] Administração de sistemas
+- [ ] Redes e diagnóstico
+- [ ] Fundamentos de segurança
+- [ ] Fundamentos de computação em nuvem
+- [ ] DevOps, Git e containers
+- [ ] Gerenciamento de projetos de TI
+- [ ] Simulado final e revisão
 
-- [ ] Linux fundamentals
-- [ ] System administration
-- [ ] Networking and troubleshooting
-- [ ] Security fundamentals
-- [ ] Cloud fundamentals
-- [ ] DevOps and containers
-- [ ] IT project management
-- [ ] Mock exam and final review
+## Ambiente de laboratório
+
+- Sistema operacional Linux em máquina virtual.
+- Oracle VirtualBox para virtualização.
+- Bash para execução dos comandos.
+- Visual Studio Code para edição e documentação.
+- Git e GitHub para controle de versão.
+
+## Referências
+
+- [Página oficial da certificação LFCA](https://training.linuxfoundation.org/certification/certified-it-associate/)
+- [Documentação oficial do Linux](https://www.kernel.org/doc/)
+- [Documentação do Git](https://git-scm.com/doc)
+
+## Aviso
+
+Este é um projeto independente de estudo. Não é afiliado à Linux Foundation e não representa material oficial ou garantia de aprovação na certificação.
