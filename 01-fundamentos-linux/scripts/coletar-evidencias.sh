@@ -8,43 +8,61 @@ ARQUIVO="$DIRETORIO/relatorio-fundamentos-linux.txt"
 mkdir -p "$DIRETORIO"
 
 {
-    echo "========================================"
-    echo " LABORATORIO LFCA - FUNDAMENTOS LINUX"
-    echo "========================================"
+    echo "================================================"
+    echo "====  LABORATORIO LFCA - FUNDAMENTOS LINUX  ===="
+    echo "================================================"
     echo "Data da coleta:"
     date
     echo
 
-    echo "=== 1. DISTRIBUICAO LINUX ==="
+    echo "#############################"
+    echo "### 1. DISTRIBUICAO LINUX ###"
+    echo "#############################"
     cat /etc/os-release
     echo
 
-    echo "=== 2. KERNEL ==="
+    echo "#############################"
+    echo "###      2. KERNEL        ###"
+    echo "#############################"
     uname -a
     echo
 
-    echo "=== 3. NOME DA MAQUINA ==="
+    echo "#############################"
+    echo "###  3. NOME DA MAQUINA   ###"
+    echo "#############################"
     hostname
     echo
 
-    echo "=== 4. USUARIO ATUAL ==="
+    echo "#############################"
+    echo "###    4. USUARIO ATUAL   ###"
+    echo "#############################"
     whoami
     id
     echo
 
-    echo "=== 5. MEMORIA ==="
+    echo "#############################"
+    echo "###      5. MEMORIA       ###"
+    echo "#############################"
     free -h
     echo
 
-    echo "=== 6. ARMAZENAMENTO ==="
+    echo "#############################"
+    echo "###   6. ARMAZENAMENTO    ###"
+    echo "#############################"
     df -h
     echo
 
-    echo "=== 7. PROCESSOS ==="
+    echo "#############################"
+    echo "###    7. PROCESSOS       ###"
+    echo "#############################"
     ps aux | head -n 10
     echo
 
-    echo "=== FIM DA COLETA ==="
+    echo "============================="
+    echo "-----------------------------"
+    echo "---    FIM DA COLETA      ---"
+    echo "-----------------------------"
+    echo "============================="
 } > "$ARQUIVO" 2>&1
 
 echo "Coleta concluida."
